@@ -106,3 +106,19 @@ represented by bool()
 tells you the data type of a value 
 # 2 len(value)
 tells you the length of a value
+
+### DATA TYPES AND FUNCTIONS CHEATSHEET
+
+<table>
+<tr>
+  <td>DATA TYPE</td>  
+  <td>MEANING</td>
+  <td>EXAMPLE</td>
+</tr>
+<tr>
+   <td>STRING</td>
+   <td>INTEGER</td> 
+   <td>FLOAT</td>
+</tr>
+</table>
+
