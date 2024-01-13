@@ -65,3 +65,34 @@ print(type(var))
 print(len(var))
 # access characters
 print(var[0])
+
+#creating a fuction 
+def my_identity(name, surname, age):
+    return name + " " + surname + " " + str(age)
+
+# built in functions 
+# input function
+print("My name is input function")
+location = input()
+print("I am from " + location)
+
+# len() function
+my_vari = "ROSELINE DANGAZELA"
+len(my_vari)
+
+#str() function
+print(str(123))
+
+# int() function
+print(int("345"))
+
+# float() function
+print(float("345.5"))
+
+#how to use input and out put
+email = input('please ender youremail')
+name = input('please enter your name')
+print(email + " " + name)
+ #to check type of values
+print(type(email))
+print(type(name))

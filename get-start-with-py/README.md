@@ -100,13 +100,6 @@ represented by set()
 has only 2 values (true, false)
 represented by bool()
 
-# BUILT IN FUNCTIONS
-
-# 1 type(value)
-tells you the data type of a value 
-# 2 len(value)
-tells you the length of a value
-
 ### DATA TYPES AND FUNCTIONS CHEATSHEET
 
 <table>
@@ -117,8 +110,107 @@ tells you the length of a value
 </tr>
 <tr>
    <td>STRING</td>
+   <td>text</td>
+   <td>"hello world 1am 24"</td>
+  </tr>
+  <tr>
    <td>INTEGER</td> 
+   <td>whole numbers</td>
+   <td>12, -5, 201, 1</td>
+  </tr> 
+  <tr>
    <td>FLOAT</td>
+   <td>numbers with decimal points</td>
+   <td>1.2, 4.67, -2,45</td>
+  </tr>
+</table>
+
+## FLOW CONTROL
+COMPARISON OPERATORS
+<table>
+<tr>
+  <td>OPERATOR</td>
+  <td>MEANING</td>
+  <td>EXAMPLE</td>
+</tr>
+<tr>
+  <td> == </td>
+  <td>equal to</td>
+  <td>x == y</td>
+</tr>
+<tr>
+  <td>!= </td>
+  <td>not equal to</td>
+  <td>x!= y</td>
+</tr>
+<tr>
+  <td> > </td>
+  <td>greater than</td>
+  <td>x > y</td>
+</tr>
+<tr>
+  <td> < </td>
+  <td>less than</td>
+  <td>x < y</td>
+</tr>
+<tr>
+  <td> >= </td>
+  <td>greater than or equal to</td>
+  <td>x >= y</td>
+</tr>
+<tr>
+  <td> <= </td>
+  <td>less than oe equal to</td>
+  <td>x <= y</td>
 </tr>
 </table>
 
+
+### COMMENTING 
+YOU CAN COMMENT YOUR CODE IN 2 WAYS
+1. SINGLE LINE COMMENTS
+here you place # before the line you want to comment
+you can do this for multi line but each line starting with #
+
+2. MULTI LINE COMMENTS
+You use """ """ to comment your code
+this can beused to coment 2+ lines of code
+
+### CREATING FUNCTIONS
+  you use keyword: def to creat a function 
+  the body of a function contains the code to run when it is called
+  the function name is the name of the function
+  the parameters are the variables that are passed to the function
+  the function can have a return value
+  the return value is the value that is returned by the function
+  EXAPLE:
+    def my_function(x, y):
+        return x + m;
+## type casting
+    you can convert a value to a different data type using it
+    example:
+    x = str(x) 
+
+
+# #### BUILT IN FUNCTIONS
+
+1. type(value)
+  tells you the data type of a value 
+
+2. len(value)
+  tells you the length of a value
+
+3. print(value)
+  prints the value to the console
+
+4. input(value)
+  takes input from the user
+  And print it out to the console
+  it captures the input value
+  then the value can be assigned or used
+5. int()
+  return an integer of the value it has received
+6. str()
+  convert a value it has received to strings
+7. float
+  convert input value to float
