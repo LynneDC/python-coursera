@@ -191,6 +191,84 @@ this can beused to coment 2+ lines of code
     example:
     x = str(x) 
 
+### CONDITIONAL STATEMENTS
+Operator tells python how to operate a statement
+### OPERATORS
+<table>
+  <tr>
+    <td>OPERATOR</td>
+    <td>MEANING</td>
+    <td>EXAMPLE</td>
+  </tr>
+  <tr>
+    <td>+ </td>
+    <td>addition</td>
+    <td>x + y</td>
+  </tr>
+  <tr>
+   <td> - </d>
+   <td>subtraction</td>
+   <td>x - y</td>
+   </tr>
+  <tr>
+    <td> * </d>
+    <td>multiplication</td>
+    <td>x * y</td>
+  </tr>
+  <tr>
+    <td> / </td>
+    <td>division</td>
+    <td>x / y</td>
+   </tr>
+   <tr>
+    <td> % </td>
+    <td>modulus</td>
+    <td>x % y</td>
+  </tr>
+<table>
+
+### LOGICAL OPERATORS
+<table>
+  <tr>
+    <td> Operator </td>
+    <td> Meaning </td>
+    <td> Example </td>
+    </tr>
+    <tr>
+    <td> and </td>
+    <td> checks for both condition to be true  </td>
+    <td> x > 2 && y < 5 </td>
+  </tr>
+  <tr>
+    <td> OR </td>
+    <td> check for one condition to be true </td>
+    <td> x > 2 OR y < 5 </td>
+   </tr>
+  <tr>
+  <td> NOT </td>
+  <td> return false if value is true </td>
+  <td> NOT(x > 2) </td>
+  </tr>
+</table>
+
+### control flow
+1. conditional
+  if statement:
+    if x > 2:
+    print("x is greater than 2")
+    elif x < 2:
+    print("x is less than 2")
+    else:
+     print("x is not greater than 2")
+
+2. looping
+    while loop
+    while x < 5:
+     for x in range(5):
+     print(x)
+     break;
+     
+
 
 # #### BUILT IN FUNCTIONS
 
