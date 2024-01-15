@@ -267,28 +267,49 @@ Operator tells python how to operate a statement
      for x in range(5):
      print(x)
      break;
-     
+
+### SWITCHES
+IT is a match statement
+When you have large number of conditions
+You can combine different srarements using or
+default is what to be returnedb if no value match
+case is equivalent to if
+default is equal to else
+
+### looping 
+looping is used to iterate through the variable and access each character in the variable
+
+### Nested loops
+the outer loop runs first into the inner,and the inner loop will run until its complited then the outer loop will run
+
+
 
 
 # #### BUILT IN FUNCTIONS
 
-1. type(value)
+1. type(value)<br>
   tells you the data type of a value 
 
-2. len(value)
+2. len(value)<br>
   tells you the length of a value
 
-3. print(value)
+3. print(value)<br>
   prints the value to the console
 
-4. input(value)
+4. input(value) <br>
   takes input from the user
   And print it out to the console
   it captures the input value
   then the value can be assigned or used
-5. int()
+5. int()<br>
   return an integer of the value it has received
-6. str()
+6. str()<br>
   convert a value it has received to strings
-7. float
+7. float() <br>
   convert input value to float
+8. range(vaue) <br>
+  is used to specify the number of items
+
+9. enumarate() <br>
+  used in the for loop when you dont have access to the index
+
